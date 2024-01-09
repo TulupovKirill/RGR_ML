@@ -14,7 +14,7 @@ def load_models():
     grad_clf = pickle.load(open("models/grad_clf.p", 'rb'))
     stack_clf = pickle.load(open("models/stack_clf.p", 'rb'))
     bag_clf = pickle.load(open("models/bag_clf.p", 'rb'))
-    dnn = tf.keras.models.load_model("models/dnn.keras")
+    dnn = tf.keras.models.load_model("models/dnn.h5")
     return knn, k_means, grad_clf,bag_clf, stack_clf, dnn
 
 st.title("Модели")
