@@ -1,5 +1,6 @@
 scikit-learn
-mathplotlib
+pandas
+matplotlib
 seaborn
 tensorflow
 imblearn
